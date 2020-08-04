@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.container-fluid {
+    padding-right: 0px; 
+    padding-left: 0px;   
+}
+li{
+    list-style:none;
+}
+p{
+    font-size:18px !important;
+    color:#555555 !important;
+}
+body{
+    line-height:1.6rem;
+    position: relative;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Main CSS Start                               */
+/* -------------------------------------------------------------------------- */
+
+
+/* ---------------------------- Header Part Start --------------------------- */
+.brand{
+    background:#ffffff;
+    margin: 15px 0px 22px 0px;
+}
+.brand h1{
+    color:#2D3E50;
+}
+.menu_bg{
+    background:#354D68;
+    padding: 11px 0px 12px 0px;
+    border-bottom: 5px solid #EE8974;
+}
+.menu ul li a{
+    color:#ffffff;
+}
+.menu ul li:hover a{
+    color:#4E152D;
+}
+
+.brand img{
+    width: 40%;
+    height: 60px;
+}
+.social_share{
+    transform: translate(73%, 60%);
+}
+.social_share a{
+    margin-right:5px;
+}
+.social_share a i{
+    font-size:2rem;
+    color:#B84FB2;
+}
+.social_share a:hover i{
+    color:#11B9F2;
+}
+
+
+/* ------------------------- News/ ContentPart Start ------------------------ */
+.news_section,.news_section_under_bg{
+    color:#2F3131;
+    padding-left:0;
+    padding-right:0;
+}
+
+.single_news{
+    margin: 0;
+    height:auto;
+    padding: 10px 5px;
+}
+.single_news h5{
+    text-align:justify;
+}
+.single_news_margin{
+    margin: 30px 0 35px 0;
+}
+.single_news form{
+    display: -webkit-inline-box;
+}
+
+.single_news img{
+    width:100%;
+    height:auto;
+}
+.single_news iframe{
+    width:100%;
+    height:40vh;
+}
+.single_news h2{
+    font-size:2rem;
+}
+.single_news p{
+    text-align:justify;
+}
+.margin_left{
+    margin-left:-13px;
+}
+.height_m{
+    height:242px;
+}
+.card p{
+    text-align:left;
+    
+}
+.card p a{
+    color:#555555;
+}
+.card p a:hover{
+    color:#96C533 !important;
+}
+
+/* --------------------------------- Ad CSS --------------------------------- */
+
+.ad_space img{
+    width: 70%;
+    height: 212px;
+    margin: 16px auto;
+    display: block;
+}
+
+
+/* -------------------------------- Side Bar -------------------------------- */
+.custom_image_asidebar img{
+    width:64px;
+    height:64px;
+}
+
+.single_side_bar{
+    margin: 15px 0 15px 0;
+    padding:20px 0; 
+}
+.single_side_bar h3{
+    color:#555555;
+    border-bottom:1px solid #cccccc;
+    padding:2px 2px 2px 2px;
+}
+.aside_ad_bar img,.single_side_bar img{
+    width:100%;
+}
+.single_side_bar .side_bar_social_div{
+    transform: translate(45px, 3px);
+}
+.single_side_bar a{
+    margin-right:1rem;
+}
+.single_side_bar a i{
+    font-size: 1.4rem;
+}
+.right_top_para:hover{
+    text-decoration: none !important; 
+}
+.right_top_para:hover p{
+    color:#F38E58 !important; 
+}
+
+
+/* --------------------------------- footer --------------------------------- */
+.footer{
+    background:#354D68;
+    text-align:center;
+    padding:1px 0px;
+}
+.footer p{
+    color:#ffffff !important;
+    padding: 11px 0 0 0;
+}
